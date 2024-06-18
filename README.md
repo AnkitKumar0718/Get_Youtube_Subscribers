@@ -44,3 +44,11 @@ Following dependencies are needed to run this application:
 2. mongoose
 
 3. nodemon
+
+## deployment:
+
+https://get-youtube-subscribers-62ox.onrender.com
+
+## Author
+
+- Ankit Kumar
