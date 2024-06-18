@@ -10,6 +10,7 @@ const Mongo_Uri=process.env.MONGO_URI;
 mongoose.connect(Mongo_Uri, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
+    serverSelectionTimeoutMS: 5000,
 }).then(() => {
     console.log("Connected to MongoDB");
     newRecords();
