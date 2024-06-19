@@ -12,7 +12,7 @@ The API has several endpoints that let users get data in JSON format, such as an
 
 3. **"/subscribers/names "** - This endpoint returns an array of subscribers with only two fields, their name and subscribed channel. http://localhost:3000/subscribers/names
 
-4. **"/subscribers/:id "** - This returns the details of subscriber whose Id is provided in endpoint. http://localhost:4000/subscribers/:id
+4. **"/subscribers/:id "** - This returns the details of subscriber whose Id is provided in endpoint. http://localhost:3000/subscribers/:id
 
 ## Application Folder Structure:
 
