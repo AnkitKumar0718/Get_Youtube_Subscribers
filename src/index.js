@@ -2,6 +2,8 @@ const express=require('express');
 
 const connectDB=require('./createDatabase.js')
 const app=require('./app.js');
+const cors = require('cors');
+app.use(cors());
 
  const dotenv=require('dotenv');
  dotenv.config();

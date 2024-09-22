@@ -40,7 +40,7 @@ app.get('/subscribers/:id',async(req,res)=>{
       res.status(400).json({ message: "No ID provided" }); 
       return;
     }
-    const subscriber = await schema.findById(id); 
+    const subscriber = await schema.findById(id);
     if (!subscriber) {
       res.status(404).json({ message: "Subscriber not found" }); 
       return;
