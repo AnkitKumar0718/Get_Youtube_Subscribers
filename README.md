@@ -1,6 +1,6 @@
 # Get_Youtube_Subscribers
 
-Get youtube subscribers is a backend application which allows RESTful API for retrieving data about all Subscribers. This project is developed with Node.js and Express, and the database used for managing the subscriber data is MongoDB. The subscriber's data consists of fields such as their ID, Names, Subscribed Channels, and Subscription Date.
+Get youtube subscribers is a backend application which allows RESTful API for retrieving data about all Subscribers. This project is developed using Node.js and Express, and the database used for managing the subscriber data is MongoDB. The subscriber's data consists of fields such as their ID, Names, Subscribed Channels, and Subscription Date.
 
 The API has several endpoints that let users get data in JSON format, such as an endpoint that returns a list of all subscribers, an endpoint that returns a list of names and subscribed channels for each subscriber, and an endpoint that returns information about a subscriber based on their ID.
 
@@ -12,7 +12,7 @@ The API has several endpoints that let users get data in JSON format, such as an
 
 3. **"/subscribers/names "** - This endpoint returns an array of subscribers with only two fields, their name and subscribed channel. http://localhost:3000/subscribers/names
 
-4. **"/subscribers/:id "** - This returns the details of subscriber whose Id is provided in endpoint. http://localhost:4000/subscribers/:id
+4. **"/subscribers/:id "** - This returns the details of subscriber whose Id is provided in endpoint. http://localhost:3000/subscribers/:id
 
 ## Application Folder Structure:
 
@@ -44,3 +44,11 @@ Following dependencies are needed to run this application:
 2. mongoose
 
 3. nodemon
+
+## deployment:
+
+https://get-youtube-subscribers-62ox.onrender.com
+
+## Author
+
+- Ankit Kumar
